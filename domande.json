@@ -1,0 +1,57 @@
+{
+  "titolo": "Checklist startup Previdia Compact",
+  "sottotitolo": "Promemoria per l'elettricista prima della messa in servizio",
+  "domande": [
+    {
+      "id": 1,
+      "testo": "Hai tenuto la scatola di cartone della centrale?",
+      "spiegazione_no": "Sopra c'è il codice di sblocco. Chiedici la procedura per recuperarlo con il serial number da service.previdia."
+    },
+    {
+      "id": 2,
+      "testo": "Hai attaccato le etichette dei dispositivi sulla planimetria?",
+      "spiegazione_no": "Incolla ogni etichetta nel punto in cui è installato il dispositivo."
+    },
+    {
+      "id": 3,
+      "testo": "Durante la programmazione avrai con te la planimetria?",
+      "spiegazione_no": "Ci serve: mentre noi lavoriamo sulla configurazione, tu ci dici in quale locale si trova ogni dispositivo."
+    },
+    {
+      "id": 4,
+      "testo": "Hai collegato le resistenze da 1 kΩ sui morsetti I/O 1, 2, 3 e 4?",
+      "spiegazione_no": "Collega una resistenza da 1 kΩ su ciascuno dei morsetti I/O 1, 2, 3 e 4. Le resistenze sono in dotazione con la centrale."
+    },
+    {
+      "id": 5,
+      "testo": "C'è un combinatore o un comunicatore?",
+      "spiegazione_no": ""
+    },
+    {
+      "id": 6,
+      "testo": "Hai la SIM e i numeri di telefono da chiamare?",
+      "spiegazione_no": "Preparali: di solito si usa una SIM dedicata agli allarmi.",
+      "mostra_se": { "id": 5, "risposta": "si" }
+    },
+    {
+      "id": 7,
+      "testo": "Hai controllato con il tester che la calza di ogni loop sia continua?",
+      "spiegazione_no": "Verificala loop per loop a centrale spenta."
+    },
+    {
+      "id": 8,
+      "testo": "Hai controllato che il positivo di ogni loop sia continuo?",
+      "spiegazione_no": "Verificalo loop per loop a centrale spenta."
+    },
+    {
+      "id": 9,
+      "testo": "Hai verificato la continuità completa con il loop alimentato?",
+      "spiegazione_no": "Accendi la centrale o usa l'ETK 2000. Solo con la tensione gli isolatori si chiudono e puoi controllare anche il negativo."
+    },
+    {
+      "id": 10,
+      "testo": "(Opzionale in fase di startup) Hai verificato, accendendo la centrale o usando l'ETK 2000, che tutti i componenti siano presenti sul loop?",
+      "spiegazione_no": "Fai un reindirizzamento dalla centrale, accesa e collegata."
+    }
+  ]
+}

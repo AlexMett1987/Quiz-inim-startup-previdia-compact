@@ -46,11 +46,11 @@
     {
       "id": 9,
       "testo": "Hai verificato la continuità completa con il loop alimentato?",
-      "spiegazione_no": "Accendi la centrale o usa l'ETK 2000. Solo con la tensione gli isolatori si chiudono e puoi controllare anche il negativo."
+      "spiegazione_no": "Accendi la centrale o usa l'EITK2000. Solo con la tensione gli isolatori si chiudono e puoi controllare anche il negativo."
     },
     {
       "id": 10,
-      "testo": "(Opzionale in fase di startup) Hai verificato, accendendo la centrale o usando l'ETK 2000, che tutti i componenti siano presenti sul loop?",
+      "testo": "(Opzionale in fase di startup) Hai verificato, accendendo la centrale o usando l'EITK2000, che tutti i componenti siano presenti sul loop?",
       "spiegazione_no": "Fai un reindirizzamento dalla centrale, accesa e collegata."
     }
   ]
